@@ -1,6 +1,5 @@
 import "./App.css";
 
-// Importing Components
 import React, { useState, useEffect } from "react";
 import Form from "./components/Form";
 import TodoList from "./components/TodoList";
@@ -54,7 +53,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>To-Do List</h1>
+        <h1>Task Manager</h1>
       </header>
 
       <Form
