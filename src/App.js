@@ -55,6 +55,7 @@ function App() {
       <header>
         <h1>Task Manager</h1>
       </header>
+      <hr />
 
       <Form
         todos={todos}
