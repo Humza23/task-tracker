@@ -32,7 +32,7 @@ function Form({ inputText, setInputText, todos, setTodos, setStatus }) {
           value={inputText}
           onChange={inputTextHandler}
           type="text"
-          // placeholder="Type Here..."
+          placeholder="Add task..."
         />
         <button
           className="todo-button"

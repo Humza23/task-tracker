@@ -21,6 +21,7 @@ form {
   justify-content: center;
   align-items: center;
 }
+
 form input,
 form button {
   padding: 0.5rem;
@@ -28,6 +29,11 @@ form button {
   border: none;
   background: white;
 }
+
+form ::placeholder {
+  font-size: 1rem;
+}
+
 form button {
   color: #ff6f47;
   background: #f7fffe;
@@ -153,6 +159,7 @@ select {
   .input {
     width: 100%;
   }
+
   form input,
   form button {
     padding: 0.7rem;
